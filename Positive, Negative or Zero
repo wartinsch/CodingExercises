@@ -1,3 +1,15 @@
+public class PositiveNegativeZero {
+    public static void checkNumber(int number){
+        if (number > 0){
+            System.out.println("positive");
+        } else if (number < 0) {
+            System.out.println("negative");        
+        } else {
+            System.out.println("zero");
+        }
+    }
+}
+
 /*
 Positive, Negative or Zero
         Write a method called checkNumber with an int parameter number.
@@ -18,17 +30,5 @@ Positive, Negative or Zero
 */
 
 
-public class PositiveNegativeZero {
-    public static void checkNumber(int number){
-        if (number > 0){
-            System.out.println("positive");
-        } else if (number < 0) {
-            System.out.println("negative");        
-        } else {
-            System.out.println("zero");
-        }
-    }
-}
-
 //TEST CASES
-https://ctrlv.sk/Q5UA
+//https://ctrlv.sk/Q5UA
